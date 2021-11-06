@@ -32,8 +32,7 @@ namespace TC_CP2110v2
         byte[] buffer;
         //сюда записываются данные из буфера buffer
         string data;
-        //здесь хранится предыдущий результат
-        string previousData;
+        
 
         //второй поток для Update
         Thread UpdateThread;
@@ -57,7 +56,6 @@ namespace TC_CP2110v2
             isConnect = false;
             device = new IntPtr();
             data = "";
-            previousData = "";
             buffer = new byte[32768];
             for (int i = 0; i < buffer.Length; i++)
             {
@@ -123,15 +121,15 @@ namespace TC_CP2110v2
                         data = "0" + data;
                     }
 
-                    if (!data.Equals(previousData))
+                    Handler?.Invoke(data);
+                    for (int i = 0; i < buffer.Length; i++)
                     {
-                        Handler?.Invoke(data);
-                        previousData = string.Copy(data);
+                        buffer[i] = 0;
                     }
 
 
 
-                    
+
 
                 }
 
@@ -195,7 +193,7 @@ namespace TC_CP2110v2
                 
                 device = IntPtr.Zero;
                 device = new IntPtr();
-                previousData = "";
+                
 
 
 

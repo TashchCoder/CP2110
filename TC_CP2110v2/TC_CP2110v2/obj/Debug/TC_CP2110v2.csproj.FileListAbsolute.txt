@@ -4,3 +4,9 @@ D:\Равелин\02 CP_2110\версии\библиотека\TC_CP2110v2\TC_CP
 D:\Равелин\02 CP_2110\версии\библиотека\TC_CP2110v2\TC_CP2110v2\obj\Debug\TC_CP2110v2.csproj.CoreCompileInputs.cache
 D:\Равелин\02 CP_2110\версии\библиотека\TC_CP2110v2\TC_CP2110v2\obj\Debug\TC_CP2110v2.dll
 D:\Равелин\02 CP_2110\версии\библиотека\TC_CP2110v2\TC_CP2110v2\obj\Debug\TC_CP2110v2.pdb
+D:\Равелин\02 CP_2110\версии\новая библиотека\CP2110-main\CP2110-main\TC_CP2110v2\TC_CP2110v2\bin\Debug\TC_CP2110v2.dll
+D:\Равелин\02 CP_2110\версии\новая библиотека\CP2110-main\CP2110-main\TC_CP2110v2\TC_CP2110v2\bin\Debug\TC_CP2110v2.pdb
+D:\Равелин\02 CP_2110\версии\новая библиотека\CP2110-main\CP2110-main\TC_CP2110v2\TC_CP2110v2\obj\Debug\TC_CP2110v2.csproj.AssemblyReference.cache
+D:\Равелин\02 CP_2110\версии\новая библиотека\CP2110-main\CP2110-main\TC_CP2110v2\TC_CP2110v2\obj\Debug\TC_CP2110v2.csproj.CoreCompileInputs.cache
+D:\Равелин\02 CP_2110\версии\новая библиотека\CP2110-main\CP2110-main\TC_CP2110v2\TC_CP2110v2\obj\Debug\TC_CP2110v2.dll
+D:\Равелин\02 CP_2110\версии\новая библиотека\CP2110-main\CP2110-main\TC_CP2110v2\TC_CP2110v2\obj\Debug\TC_CP2110v2.pdb
